@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles.css" />
+    <title>Roll-Dice | Prajwal H N</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="dice-container">
+        <span id="game-heading">Roll The Dice</span>
+        <img id="dice-image" />
+
+        <img id="preloader" src="./Assets/loading.gif" />
+
+        <p>
+          The dice will change in <span id="SecondsCounter"> </span> seconds
+        </p>
+      </div>
+      <div class="status">
+        <p>Selected value:<span id="userSelectedValue"></span></p>
+        <p>Score:<span id="scoreValue">0</span></p>
+      </div>
+      <div class="buttons">
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+      </div>
+      <div class="result-div">
+      <p><span id="result"></span></p>
+    </div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>

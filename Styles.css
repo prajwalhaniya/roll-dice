@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background: url('./Assets/background.jpg');
+}
+
+#game-heading{
+    font-size: 3rem;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.status{
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.status p{
+    font-size: 1.6rem;
+    color:white;
+    font-family: monospace;
+}
+.container{
+    margin-top:0;
+    
+}
+.dice-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.dice-container img{
+    align-self: center;
+    width:8rem;
+    height:8rem;
+}
+.dice-container p{
+    font-size:2rem;
+    font-family: monospace;
+ color:white;
+}
+
+
+#shuffle{
+    width:10%;
+    background-color:azure;
+}
+
+.buttons{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   height:5vh;
+   grid-gap: 20px;
+   grid-template-columns: repeat(3,80px);
+   grid-template-rows: minmax(20px,auto) repeat(2,100px);
+}
+.buttons button{
+    cursor: pointer;
+    font-size: 2rem;
+    border:1px solid white;
+}
+
+.buttons button:hover{
+   background-color:aquamarine;
+}
+.result-div{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result{
+    font-size:4rem;
+    text-align:center;
+    color:white;
+}
+
